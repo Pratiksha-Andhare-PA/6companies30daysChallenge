@@ -3,6 +3,7 @@ public:
     int equalSubstring(string s, string t, int maxCost) {
         int n = s.length();
         int ans = 0;
+        
         int left = 0, right = 0;
         int currCost = 0;
 
