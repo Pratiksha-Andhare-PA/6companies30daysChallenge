@@ -29,7 +29,7 @@ public:
         merge(upper.begin(), upper.end(), lower.begin(), lower.end(), back_inserter(ans));
         auto pts = unique(ans.begin(), ans.end());
         ans.erase(pts, ans.end());
-
+        
         return ans;
     }
 };
